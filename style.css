@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #fafafa;
+    display: flex;
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Langar', cursive;
+    /* background-color: rgb(54, 50, 50); */
+    background-image: url(./images/n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* color: white; */
+    /* min-height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif; */
+}
+.text-center{
+    color: black;
+    font-size: 40px;
+}
+
+.card {
+    /* border: 2px solid rgb(48, 46, 46); */
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 3%;
+    background-color: rgb(243, 245, 247);
+}
+
+.money {
+    background-color: rgb(196, 196, 196);
+    color: black;
+    /* border: 2px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.left {
+    border-right: 1px solid rgb(143, 143, 143);
+    padding-right: 65px;
+}
+
+.right {
+    border-left: 1px solid rgb(143, 143, 143);
+    padding-left: 65px;
+}
+
+.transaction {
+    font-size: 20px;
+    display: block;
+    margin-top: 10%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid rgb(201, 200, 200);
+}
+
+#list {
+    padding: 0%;
+}
+
+/* #list li {
+    font-size: 17px;
+    list-style-type: none;
+    display: block;
+    border: 2px solid rgb(185, 185, 185);
+    /* box-shadow: 1px 1px 1px 1px rgb(185, 185, 185); */
+/* padding: 2%;
+    margin-bottom: 2%;
+    margin-left: 5px;
+}  */
+
+#button {
+    width: 100%;
+    background-color: rgb(12, 12, 73);
+    border: none;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/* .list li.plus {
+    border-right: 5px solid #2ecc71;
+} */
+
+#list li {
+    font-size: 17px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.btnDelete {
+    font-family: Roboto;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: none;
+    outline: none;
+    color: #fff;
+    /* font-size: 20px; */
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    /* opacity: 0; */
+    transition: opacity 0.3s ease;
+}
+
+#timeInput {
+    width: 35%;
+}
+
+#dateInput {
+    width: 45%;
+}
+
+.md-form {
+    display: flex;
+}
+
+.md-form label {
+    padding: 5px;
+}
